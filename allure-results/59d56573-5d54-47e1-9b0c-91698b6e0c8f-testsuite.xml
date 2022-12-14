@@ -1,0 +1,70 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1670794995766' stop='1670795009947'>
+    <name>ToDo:</name>
+    <title>ToDo:</title>
+    <test-cases>
+        <test-case start='1670794996944' status='passed' stop='1670795002498'>
+            <name>test something</name>
+            <title>test something</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1670794999762' status='passed' stop='1670795000508'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670795000509' status='passed' stop='1670795000539'>
+                    <name>I wait for element ".new-todo", 60</name>
+                    <title>I wait for element ".new-todo", 60</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670795000540' status='passed' stop='1670795000552'>
+                    <name>I dont see element ".todo-count"</name>
+                    <title>I dont see element ".todo-count"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670795000553' status='passed' stop='1670795000878'>
+                    <name>I fill field "What needs to be done?", "Task_1"</name>
+                    <title>I fill field "What needs to be done?", "Task_1"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670795000878' status='passed' stop='1670795001037'>
+                    <name>I press key "Enter"</name>
+                    <title>I press key "Enter"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670795001037' status='passed' stop='1670795001051'>
+                    <name>I see "Task_1", ".todo-list"</name>
+                    <title>I see "Task_1", ".todo-list"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670795001051' status='passed' stop='1670795001062'>
+                    <name>I wait for element ".toggle", 60</name>
+                    <title>I wait for element ".toggle", 60</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670795001062' status='passed' stop='1670795002487'>
+                    <name>I click ".toggle"</name>
+                    <title>I click ".toggle"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670795002488' status='passed' stop='1670795002498'>
+                    <name>I grab text from ".todo-count strong"</name>
+                    <title>I grab text from ".todo-count strong"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
